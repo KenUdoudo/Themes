@@ -7,7 +7,8 @@ function App() {
   return (
     <div>
       <h2>Themes in React</h2>
-      <p>Practicing theming: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid deserunt voluptate aut tempora, optio ut dolor nam odio veritatis, quaerat architecto quos temporibus adipisci libero sint! Quae cum blanditiis reiciendis.</p>
+      <p>This is ane example of how to make themes in React application. Watch my new video to see  how to do this the easy way.</p>
+      <p></p>
     </div>
   )
 }
