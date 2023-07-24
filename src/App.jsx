@@ -9,7 +9,7 @@ function App() {
       <p className="text-xl text-center px-40 mx-20">This is an example of how to make themes in React application. Watch my new video to see  how to do this the easy way.</p>
       <p>Example contains React with Typescript, Context API and React Hooks.</p>
 
-      <div className="flex flex-row">
+      <div className="flex flex-row gap-x-5 mt-4">
         <button>Light Theme</button>
         <button>Dark Theme</button>
       </div>
