@@ -11,7 +11,7 @@ function App() {
 
       <div className="flex flex-row gap-x-5 mt-4">
         <button className="border-2 bg-white border-purple-600 rounded-xl px-3">Light Theme</button>
-        <button>Dark Theme</button>
+        <button className="border-2 bg-gray-600 border-purple-600 rounded-xl px-3 text-white">Dark Theme</button>
       </div>
     </div>
   )
