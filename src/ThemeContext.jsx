@@ -18,3 +18,5 @@ return (
 
   </ThemeContext.Provider>
 )
+
+export {ThemeContext, ThemeProvider};
