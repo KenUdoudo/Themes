@@ -1,8 +1,5 @@
 
-
-import { useState } from "react"
 function App() {
-  const [light,setLight] = useState(0)
 
   return (
     <div className='flex flex-col justify-center items-center mt-40'>

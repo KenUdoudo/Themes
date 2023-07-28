@@ -5,4 +5,6 @@ const ThemeContext = createContext();
 
 const ThemeProvider = () => {
   
-  const [theme, setTheme] = useState('light');}
+  const [theme, setTheme] = useState('light');
+
+}
