@@ -3,4 +3,6 @@ import { useState } from "react";
 
 const ThemeContext = createContext();
 
-const
+const ThemeProvider = () => {
+  
+  const [theme, setTheme] = useState('light');
