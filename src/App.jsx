@@ -1,6 +1,9 @@
 import { useContext } from "react"
 import { ThemeContext } from "./ThemeContext"
 function App() {
+  const ThemedCompoment = () =>{
+    const {theme, toggleLight, toggleDark}
+  }
 
   return (
     <div className='flex flex-col justify-center items-center mt-40'>
