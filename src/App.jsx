@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { ThemeContext } from "./ThemeContext"
 function App() {
   const ThemedCompoment = () =>{
-    const {theme, toggleLight, toggleDark}
+    const {theme, toggleLight, toggleDark} = useContext(ThemeContext);
   }
 
   return (
