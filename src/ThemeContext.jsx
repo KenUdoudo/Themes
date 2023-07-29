@@ -11,7 +11,7 @@ const ThemeProvider = () => {
   }
 };
 return (
-  <ThemeContext.Provider value={{theme, toggleLight, toggleDark}}>
+  <ThemeContext.Provider value={{theme, toggleTheme}}>
 
   </ThemeContext.Provider>
 )
