@@ -1,7 +1,7 @@
-const FirstComponent = () => {
+const FirstComponent = (props) => {
     return (
         <div>
-            
+            {props.data}
         </div>
     );
 }
