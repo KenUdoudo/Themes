@@ -1,9 +1,9 @@
 
-
 const App = () => {
+  let array = ["user1", "user2", "user3", "user4",]
   return (
     <div>
-      
+      {array.map((user)=>{return <h2>{user}</h2>})}
     </div>
   );
 }
