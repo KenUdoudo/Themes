@@ -1,12 +1,15 @@
+import { useState } from "react";
 
 const App = () => {
-  
+  const [x,setx] = useState(0)
   const btnClick = () =>{
-      console.log("Clicked")
+      console.log("Clicked");
+      setx(x+1);
   }
   return (
     <div>
-      <button onClick={()=>{btnClick}}>Click me</button>
+      {x}
+      <button onClick={()=>{btnClick()}}>Click me</button>
     </div>
   );
 }
