@@ -1,13 +1,13 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import FirstComponent from "./components/FirstComponent";
 
 const App = () => {
  
-  
+  const inputRef = useRef(null)
   return (
     <div>
-      <input type="text" />
-      <button>Submit</button>
+      <input ref={inputRef} type="text" />
+      <button onClick={()=>{console.log(inputRef.current.value)}}>Submit</button>
     </div>
   );
 }
