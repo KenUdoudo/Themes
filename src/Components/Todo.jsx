@@ -1,7 +1,7 @@
 const Todo = () => {
     return (
-        <div>
-            
+        <div className="text-red">
+beans
         </div>
     );
 }
